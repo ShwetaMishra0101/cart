@@ -1,0 +1,7 @@
+#cart {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+}
+#cart img {
+  width: 200px;
+}

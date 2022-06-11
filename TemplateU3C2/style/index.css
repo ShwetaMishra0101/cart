@@ -1,0 +1,23 @@
+#navbar {
+  display: flex;
+  background-color: aqua;
+  padding: 1%;
+  justify-content: end;
+  gap: 2%;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#navbar div {
+  cursor: pointer;
+}
+#menu {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  gap: 20px;
+  text-align: center;
+  /* margin: auto; */
+}
+#menu img {
+  width: 200px;
+}
